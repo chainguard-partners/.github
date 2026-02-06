@@ -1,0 +1,12 @@
+issuer: https://accounts.google.com
+
+# prod:
+#   105145109555390460193: elastic-pre-enterprise@prod-images-c6e5.iam.gserviceaccount.com
+#   106994789063784552437: elastic-post-enterprise@prod-images-c6e5.iam.gserviceaccount.com
+#   116941247155554911907: elastic-world-enterprise@prod-images-c6e5.iam.gserviceaccount.com
+subject_pattern: (105145109555390460193|106994789063784552437|116941247155554911907)
+
+permissions:
+  contents: read
+
+repositories: [] # Act over all of the repos in the org.
