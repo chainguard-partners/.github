@@ -8,5 +8,4 @@ permissions:
   checks: write
   pull_requests: read
 
-repositories:
-- demo
+repositories: []
