@@ -1,0 +1,12 @@
+# Copyright 2026 Chainguard, Inc.
+# SPDX-License-Identifier: Apache-2.0
+
+issuer: https://accounts.google.com
+
+# Service account: package-updater@prod-enforce-fabc.iam.gserviceaccount.com
+subject: "108966045143084436403"
+
+permissions:
+  contents: read
+
+repositories: []
