@@ -1,0 +1,17 @@
+# Copyright 2026 Chainguard, Inc.
+# SPDX-License-Identifier: Apache-2.0
+
+# Lets pkg-upd-validator read tags so it can check package-updater PRs for
+# the chainguard-dev/stereo packages that build from this org's repos.
+# Allowlisted in chainguard-dev/mono
+# env/enforce.dev/iac/400-package-update-validator.
+
+issuer: https://accounts.google.com
+
+# Service account: pkg-upd-validator@prod-enforce-fabc.iam.gserviceaccount.com
+subject: "110959996406301074056"
+
+permissions:
+  contents: read
+
+repositories: []
